@@ -1,6 +1,6 @@
-package com.golem;
+package com.golem.stackableelytratrims;
 
-public final class ExampleMod {
+public final class StackableElytraTrims {
     public static final String MOD_ID = "stackable_elytra_trims";
 
     public static void init() {

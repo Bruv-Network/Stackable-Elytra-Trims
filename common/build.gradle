@@ -7,5 +7,6 @@ dependencies {
     // which get remapped to the correct annotations on each platform.
     // Do NOT use other classes from Fabric Loader.
     implementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
-
+    compileOnly "maven.modrinth:stackable-trims:qQgFQJd2"
+    compileOnly "maven.modrinth:elytra-trims:kJxyTnJz"
 }

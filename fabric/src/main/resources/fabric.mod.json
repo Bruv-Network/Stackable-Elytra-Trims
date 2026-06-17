@@ -3,35 +3,30 @@
   "id": "stackable_elytra_trims",
   "version": "${version}",
   "name": "Stackable Elytra Trims",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Allows multiple stacked trims to render on elytras.",
   "authors": [
-    "Me!"
+    "Golem"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Bruv-Network/Stackable-Elytra-Trims"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/stackable_elytra_trims/icon.png",
+  "license": "GPL-3.0",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.golem.fabric.ExampleModFabric"
+      "com.golem.fabric.StackableElytraTrimsFabric"
     ],
     "client": [
-      "com.golem.fabric.client.ExampleModFabricClient"
+      "com.golem.fabric.client.StackableElytraTrimsFabricClient"
     ]
   },
-  "mixins": [
-    "stackable_elytra_trims.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.19.1",
     "minecraft": ">=26.1",
     "java": ">=25",
-    "fabric-api": "*"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabric-api": "*",
+    "stackabletrims": "*",
+    "elytratrims": "*"
   }
 }
