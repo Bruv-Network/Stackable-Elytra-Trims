@@ -8,7 +8,7 @@ When both Stackable Trims and Elytra Trims are installed, applying multiple trim
 
 ## The Fix
 
-This addon uses Elytra Trims' official rendering API to intercept the trim renderer. When an elytra has multiple stacked trims, it iterates through them and renders each one — so all your trims show up.
+This addon uses Elytra Trims rendering API to intercept the trim renderer. When an elytra has multiple stacked trims, it iterates through them and renders each one so all your trims show up.
 
 ## Requirements
 
